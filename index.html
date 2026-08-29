@@ -3,17 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NailCraft AI - Discover Trending 2026 Nail Art & AI Design Ideas</title>
-  <meta name="description" content="Explore viral 2026 nail trends, generate custom nail sets with salon-ready instructions, color swatches, and fall palettes in seconds.">
-  <meta name="keywords" content="fall nails 2026, nail art ideas, clean girl nails, halloween nails, nail salon script, custom nail design">
+  <title>NailCraft AI — Viral 2026 Nail Trends, Swatches & Studio</title>
+  <meta name="description" content="Explore viral 2026 nail trends, generate custom nail sets with salon-ready instructions, interactive color variations, and fall palettes.">
   
   <!-- Tailwind CSS & Google Fonts -->
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
-  
-  <!-- FontAwesome Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
   <script>
@@ -33,8 +30,7 @@
               700: '#8e3717',
             },
             latte: '#f5ebe0',
-            espresso: '#2b2118',
-            cream: '#fefae0'
+            espresso: '#2b2118'
           }
         }
       }
@@ -43,19 +39,24 @@
 
   <!-- Adsterra Global Social Bar -->
   <script src="https://pl31058484.profitableratecpmnetwork.com/58/21/d2/5821d22c4ee9e8b96f552eb365fa6e61.js"></script>
-  
+
   <style>
     .glass-card {
-      background: rgba(255, 255, 255, 0.85);
+      background: rgba(255, 255, 255, 0.9);
       backdrop-filter: blur(12px);
-      border: 1px solid rgba(200, 90, 50, 0.12);
+      border: 1px solid rgba(200, 90, 50, 0.15);
+    }
+    .color-dot.active-swatch {
+      outline: 3px solid #c85a32;
+      outline-offset: 2px;
+      transform: scale(1.15);
     }
   </style>
 </head>
 <body class="bg-[#FAF7F2] text-espresso font-sans antialiased selection:bg-terracotta-500 selection:text-white">
 
-  <!-- Navigation -->
-  <header class="sticky top-0 z-50 bg-[#FAF7F2]/90 backdrop-blur-md border-b border-terracotta-100">
+  <!-- Header -->
+  <header class="sticky top-0 z-40 bg-[#FAF7F2]/90 backdrop-blur-md border-b border-terracotta-100">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
       <a href="#" class="flex items-center gap-2">
         <span class="w-10 h-10 rounded-full bg-terracotta-500 text-white flex items-center justify-center font-serif text-xl font-bold shadow-md shadow-terracotta-500/20">N</span>
@@ -64,40 +65,39 @@
 
       <nav class="hidden md:flex items-center gap-8 font-medium text-sm text-espresso/80">
         <a href="#generator" class="hover:text-terracotta-500 transition">AI Studio</a>
-        <a href="#trends" class="hover:text-terracotta-500 transition">Trending 2026</a>
-        <a href="#lookbook" class="hover:text-terracotta-500 transition">Lookbook</a>
-        <a href="#palettes" class="hover:text-terracotta-500 transition">Color Palettes</a>
+        <a href="#lookbook" class="hover:text-terracotta-500 transition">Lookbook (8+ Sets)</a>
+        <a href="#palettes" class="hover:text-terracotta-500 transition">Color Vault</a>
         <a href="#faq" class="hover:text-terracotta-500 transition">FAQ</a>
       </nav>
 
       <a href="#generator" class="bg-terracotta-500 hover:bg-terracotta-600 text-white px-5 py-2.5 rounded-full font-semibold text-sm transition shadow-lg shadow-terracotta-500/25 flex items-center gap-2">
         <i class="fa-solid fa-wand-magic-sparkles"></i>
-        <span>Design Custom Set</span>
+        <span>Try Live Studio</span>
       </a>
     </div>
   </header>
 
   <!-- Hero Section -->
-  <section class="relative pt-12 pb-20 overflow-hidden">
+  <section class="relative pt-12 pb-16 overflow-hidden">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
       <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-terracotta-100/80 text-terracotta-600 text-xs font-bold uppercase tracking-wider mb-6">
-        <i class="fa-solid fa-sparkles"></i> Fall 2026 Nail Trend Report Live
+        <i class="fa-solid fa-sparkles"></i> Fall 2026 Interactive Nail Studio
       </div>
       
       <h1 class="font-serif text-4xl sm:text-6xl lg:text-7xl font-bold text-espresso max-w-4xl mx-auto leading-[1.15] mb-6">
-        Discover Trending 2026 Nail Art & <span class="text-terracotta-500 italic font-normal">AI Design Ideas</span>
+        Discover Trending Nail Art with <span class="text-terracotta-500 italic font-normal">Real-Time Colors</span>
       </h1>
       
-      <p class="max-w-2xl mx-auto text-base sm:text-lg text-espresso/70 mb-10 leading-relaxed">
-        Fall 2026 trends, back-to-school minimalist sets, spooky glam, and September color palettes — generate ready-to-use nail salon scripts with one tap.
+      <p class="max-w-2xl mx-auto text-base sm:text-lg text-espresso/70 mb-8 leading-relaxed">
+        Click on any color variation below to instantly swap nail styles, view live photo previews, and copy ready-to-use nail technician formulas.
       </p>
 
       <div class="flex flex-col sm:flex-row items-center justify-center gap-4 max-w-md mx-auto">
-        <a href="#generator" class="w-full sm:w-auto bg-terracotta-500 hover:bg-terracotta-600 text-white px-8 py-4 rounded-full font-bold shadow-xl shadow-terracotta-500/30 transition transform hover:-translate-y-0.5 flex items-center justify-center gap-2">
-          <i class="fa-solid fa-wand-magic-sparkles"></i> Generate My Design
+        <a href="#generator" class="w-full sm:w-auto bg-terracotta-500 hover:bg-terracotta-600 text-white px-8 py-4 rounded-full font-bold shadow-xl shadow-terracotta-500/30 transition flex items-center justify-center gap-2">
+          <i class="fa-solid fa-wand-magic-sparkles"></i> Open Custom Studio
         </a>
         <a href="#lookbook" class="w-full sm:w-auto bg-white hover:bg-terracotta-50 border border-terracotta-200 text-espresso px-8 py-4 rounded-full font-bold transition flex items-center justify-center gap-2">
-          <i class="fa-regular fa-images"></i> Browse Lookbook
+          <i class="fa-regular fa-images"></i> Explore Gallery
         </a>
       </div>
     </div>
@@ -109,230 +109,235 @@
       <span class="text-[10px] uppercase tracking-widest text-espresso/40 block mb-1">Sponsored Recommendation</span>
       <script>
         atOptions = {
-          'key' : '8fd97ff90520fb4b42c75348ae8d8b7a',
+          'key' : 'b51f5b0686db76b5d173333608b03b97',
           'format' : 'iframe',
           'height' : 90,
           'width' : 728,
           'params' : {}
         };
       </script>
-      <script src="https://www.highrevenueformat.com/8fd97ff90520fb4b42c75348ae8d8b7a/invoke.js"></script>
+      <script src="https://www.highrevenueformat.com/b51f5b0686db76b5d173333608b03b97/invoke.js"></script>
     </div>
   </div>
 
-  <!-- Interactive AI Nail Studio Generator -->
+  <!-- Interactive AI Nail Studio (With Real-Time Reactive Color Switcher) -->
   <section id="generator" class="py-16 bg-[#F5EBE0]/60">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="text-center max-w-2xl mx-auto mb-12">
-        <span class="text-terracotta-500 font-bold uppercase tracking-widest text-xs">AI Design Studio</span>
-        <h2 class="font-serif text-3xl sm:text-4xl font-bold mt-2">Design Your Custom Set</h2>
-        <p class="text-espresso/70 mt-2 text-sm sm:text-base">Pick your vibe, shape, color mood, and complexity — get a ready-to-use salon script in seconds.</p>
+      <div class="text-center max-w-2xl mx-auto mb-10">
+        <span class="text-terracotta-500 font-bold uppercase tracking-widest text-xs">Interactive Studio</span>
+        <h2 class="font-serif text-3xl sm:text-4xl font-bold mt-2">Live Design & Color Switcher</h2>
+        <p class="text-espresso/70 mt-2 text-sm">Select options or click swatches to see the photo and instructions update immediately.</p>
       </div>
 
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+        
         <!-- Controls Column -->
-        <div class="lg:col-span-6 glass-card p-6 sm:p-8 rounded-3xl shadow-xl space-y-6">
-          <!-- Vibe -->
+        <div class="lg:col-span-5 glass-card p-6 sm:p-8 rounded-3xl shadow-xl space-y-6">
+          
+          <!-- Occasion/Vibe -->
           <div>
-            <label class="block text-xs font-bold uppercase tracking-wider text-espresso/70 mb-3">Occasion / Vibe</label>
+            <label class="block text-xs font-bold uppercase tracking-wider text-espresso/70 mb-3">1. Select Style & Vibe</label>
             <div class="grid grid-cols-2 gap-2" id="vibe-group">
-              <button onclick="selectOption('vibe', this, 'Fall Transition')" class="opt-btn bg-terracotta-500 text-white px-3 py-2.5 rounded-xl text-xs font-semibold border border-transparent shadow-sm">Fall Transition</button>
-              <button onclick="selectOption('vibe', this, 'Campus Minimalist')" class="opt-btn bg-white hover:bg-terracotta-50 text-espresso px-3 py-2.5 rounded-xl text-xs font-semibold border border-terracotta-100">Campus Minimalist</button>
-              <button onclick="selectOption('vibe', this, 'Halloween Glam')" class="opt-btn bg-white hover:bg-terracotta-50 text-espresso px-3 py-2.5 rounded-xl text-xs font-semibold border border-terracotta-100">Halloween Glam</button>
-              <button onclick="selectOption('vibe', this, 'Elegant Evening')" class="opt-btn bg-white hover:bg-terracotta-50 text-espresso px-3 py-2.5 rounded-xl text-xs font-semibold border border-terracotta-100">Elegant Evening</button>
+              <button onclick="setVibe('fall_terracotta', this)" class="vibe-opt bg-terracotta-500 text-white px-3 py-2.5 rounded-xl text-xs font-semibold shadow-sm transition">🍂 Fall Terracotta</button>
+              <button onclick="setVibe('clean_nude', this)" class="vibe-opt bg-white hover:bg-terracotta-50 text-espresso px-3 py-2.5 rounded-xl text-xs font-semibold border border-terracotta-100 transition">✨ Glazed Nude</button>
+              <button onclick="setVibe('spooky_goth', this)" class="vibe-opt bg-white hover:bg-terracotta-50 text-espresso px-3 py-2.5 rounded-xl text-xs font-semibold border border-terracotta-100 transition">🎃 Gothic Stars</button>
+              <button onclick="setVibe('champagne_gold', this)" class="vibe-opt bg-white hover:bg-terracotta-50 text-espresso px-3 py-2.5 rounded-xl text-xs font-semibold border border-terracotta-100 transition">🥂 Gold Glam</button>
+              <button onclick="setVibe('emerald_velvet', this)" class="vibe-opt bg-white hover:bg-terracotta-50 text-espresso px-3 py-2.5 rounded-xl text-xs font-semibold border border-terracotta-100 transition">🌲 Emerald Velvet</button>
+              <button onclick="setVibe('pumpkin_spice', this)" class="vibe-opt bg-white hover:bg-terracotta-50 text-espresso px-3 py-2.5 rounded-xl text-xs font-semibold border border-terracotta-100 transition">☕ Pumpkin Chai</button>
             </div>
           </div>
 
           <!-- Nail Shape -->
           <div>
-            <label class="block text-xs font-bold uppercase tracking-wider text-espresso/70 mb-3">Nail Shape</label>
+            <label class="block text-xs font-bold uppercase tracking-wider text-espresso/70 mb-3">2. Nail Shape</label>
             <div class="grid grid-cols-3 gap-2" id="shape-group">
-              <button onclick="selectOption('shape', this, 'Almond')" class="shape-btn bg-terracotta-500 text-white px-3 py-2 rounded-xl text-xs font-semibold border border-transparent">Almond</button>
-              <button onclick="selectOption('shape', this, 'Square')" class="shape-btn bg-white hover:bg-terracotta-50 text-espresso px-3 py-2 rounded-xl text-xs font-semibold border border-terracotta-100">Square</button>
-              <button onclick="selectOption('shape', this, 'Coffin')" class="shape-btn bg-white hover:bg-terracotta-50 text-espresso px-3 py-2 rounded-xl text-xs font-semibold border border-terracotta-100">Coffin</button>
+              <button onclick="setShape('Almond', this)" class="shape-opt bg-terracotta-500 text-white px-3 py-2 rounded-xl text-xs font-semibold">Almond</button>
+              <button onclick="setShape('Square', this)" class="shape-opt bg-white hover:bg-terracotta-50 text-espresso px-3 py-2 rounded-xl text-xs font-semibold border border-terracotta-100">Square</button>
+              <button onclick="setShape('Coffin', this)" class="shape-opt bg-white hover:bg-terracotta-50 text-espresso px-3 py-2 rounded-xl text-xs font-semibold border border-terracotta-100">Coffin</button>
             </div>
           </div>
 
-          <!-- Color Mood -->
-          <div>
-            <label class="block text-xs font-bold uppercase tracking-wider text-espresso/70 mb-3">Color Mood</label>
-            <div class="grid grid-cols-2 gap-2" id="mood-group">
-              <button onclick="selectOption('mood', this, 'Earthy Terracotta')" class="mood-btn bg-terracotta-500 text-white px-3 py-2 rounded-xl text-xs font-semibold border border-transparent">Earthy Terracotta</button>
-              <button onclick="selectOption('mood', this, 'Pumpkin Spice')" class="mood-btn bg-white hover:bg-terracotta-50 text-espresso px-3 py-2 rounded-xl text-xs font-semibold border border-terracotta-100">Pumpkin Spice</button>
-              <button onclick="selectOption('mood', this, 'Milky Nude Glazed')" class="mood-btn bg-white hover:bg-terracotta-50 text-espresso px-3 py-2 rounded-xl text-xs font-semibold border border-terracotta-100">Milky Nude Glazed</button>
-              <button onclick="selectOption('mood', this, 'Vampy Plum')" class="mood-btn bg-white hover:bg-terracotta-50 text-espresso px-3 py-2 rounded-xl text-xs font-semibold border border-terracotta-100">Vampy Plum</button>
-            </div>
+          <!-- Quick Tip -->
+          <div class="p-4 bg-terracotta-100/60 rounded-2xl border border-terracotta-200/50 text-xs text-terracotta-700 leading-relaxed">
+            <i class="fa-solid fa-lightbulb mr-1"></i> <strong>Pro Tip:</strong> Click any of the round color circles on the right card to immediately preview that exact polish shade and hex code.
           </div>
-
-          <!-- Generate Button -->
-          <button onclick="generateNailDesign()" class="w-full bg-terracotta-500 hover:bg-terracotta-600 text-white py-4 rounded-2xl font-bold shadow-lg shadow-terracotta-500/25 transition flex items-center justify-center gap-2">
-            <i class="fa-solid fa-sparkles"></i> Generate AI Design & Salon Script
-          </button>
         </div>
 
-        <!-- Output Result Column -->
-        <div class="lg:col-span-6 glass-card p-6 sm:p-8 rounded-3xl shadow-xl relative overflow-hidden">
+        <!-- Dynamic Output Result Column -->
+        <div class="lg:col-span-7 glass-card p-6 sm:p-8 rounded-3xl shadow-xl relative overflow-hidden">
+          
           <div class="flex items-center justify-between mb-4 pb-3 border-b border-terracotta-100">
             <div>
-              <span id="res-badge" class="text-xs font-bold uppercase tracking-wider text-terracotta-500">Fall Transition • Almond</span>
+              <span id="res-badge" class="text-xs font-bold uppercase tracking-wider text-terracotta-500">Fall 2026 Trend • Almond</span>
               <h3 id="res-title" class="font-serif text-2xl font-bold text-espresso">Warm Terracotta French Halo</h3>
             </div>
-            <span class="w-3 h-3 rounded-full bg-green-500 animate-pulse"></span>
+            <span class="inline-flex items-center gap-1.5 bg-green-100 text-green-700 text-xs font-bold px-3 py-1 rounded-full">
+              <span class="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span> Live Sync
+            </span>
           </div>
 
-          <!-- Visual Preview Photo -->
-          <div class="relative w-full h-56 rounded-2xl overflow-hidden mb-6 bg-terracotta-100 shadow-inner">
-            <img id="res-image" src="https://images.unsplash.com/photo-1632345031435-8727f6897d53?auto=format&fit=crop&w=800&q=80" 
-                 alt="AI Nail Design Result" 
-                 class="w-full h-full object-cover transition duration-500 hover:scale-105"
-                 onerror="this.src='https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=800&q=80'">
-            <div class="absolute bottom-3 right-3 bg-black/60 backdrop-blur-md text-white px-3 py-1 rounded-full text-xs font-medium">
-              <i class="fa-solid fa-camera"></i> 2026 Trend Edition
+          <!-- Reactive Image Preview with Zoom effect -->
+          <div class="relative w-full h-72 rounded-2xl overflow-hidden mb-6 bg-terracotta-100 shadow-md group">
+            <img id="res-image" 
+                 src="https://images.unsplash.com/photo-1632345031435-8727f6897d53?auto=format&fit=crop&w=1000&q=80" 
+                 alt="Interactive Nail Preview" 
+                 class="w-full h-full object-cover transition duration-500 group-hover:scale-105"
+                 onerror="this.src='https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=1000&q=80'">
+            <div id="image-tag" class="absolute bottom-3 right-3 bg-black/70 backdrop-blur-md text-white px-3 py-1.5 rounded-full text-xs font-semibold">
+              <i class="fa-solid fa-check mr-1 text-green-400"></i> Shade: Warm Terracotta
             </div>
           </div>
 
-          <!-- Color Swatches -->
-          <div class="mb-6">
-            <span class="block text-xs font-bold uppercase tracking-wider text-espresso/60 mb-2">Curated Color Palette</span>
-            <div class="flex items-center gap-3" id="res-swatches">
-              <div class="flex items-center gap-2 bg-white px-3 py-1.5 rounded-xl border border-terracotta-100 text-xs">
-                <span class="w-4 h-4 rounded-full bg-[#C85A32]"></span>
-                <span class="font-mono">#C85A32</span>
-              </div>
-              <div class="flex items-center gap-2 bg-white px-3 py-1.5 rounded-xl border border-terracotta-100 text-xs">
-                <span class="w-4 h-4 rounded-full bg-[#EAD7C5]"></span>
-                <span class="font-mono">#EAD7C5</span>
-              </div>
-              <div class="flex items-center gap-2 bg-white px-3 py-1.5 rounded-xl border border-terracotta-100 text-xs">
-                <span class="w-4 h-4 rounded-full bg-[#D4A373]"></span>
-                <span class="font-mono">#D4A373</span>
-              </div>
+          <!-- Interactive Clickable Color Swatches -->
+          <div class="mb-6 bg-white/70 p-4 rounded-2xl border border-terracotta-100">
+            <div class="flex items-center justify-between mb-2.5">
+              <span class="text-xs font-bold uppercase tracking-wider text-espresso/70">Click a Color Swatch to Swap Shade:</span>
+              <span id="active-hex-label" class="text-xs font-mono font-bold text-terracotta-600">#C85A32</span>
+            </div>
+            <div class="flex flex-wrap items-center gap-3" id="swatch-container">
+              <!-- Swatches dynamically loaded by JavaScript -->
             </div>
           </div>
 
           <!-- Salon Script Card -->
-          <div class="bg-terracotta-50 p-4 rounded-2xl border border-terracotta-200/70 mb-6">
+          <div class="bg-terracotta-50 p-4 rounded-2xl border border-terracotta-200/70">
             <div class="flex items-center justify-between mb-2">
               <span class="text-xs font-bold uppercase tracking-wider text-terracotta-600 flex items-center gap-1.5">
-                <i class="fa-solid fa-clipboard-check"></i> Exact Salon Tech Instructions
+                <i class="fa-solid fa-clipboard-check"></i> Ready-to-Use Salon Script
               </span>
-              <button onclick="copyScript()" class="text-xs bg-white hover:bg-terracotta-100 text-terracotta-600 font-bold px-3 py-1 rounded-lg border border-terracotta-200 transition flex items-center gap-1">
+              <button onclick="copyScript()" class="text-xs bg-white hover:bg-terracotta-100 text-terracotta-600 font-bold px-3.5 py-1.5 rounded-lg border border-terracotta-200 transition flex items-center gap-1.5 shadow-sm">
                 <i id="copy-icon" class="fa-regular fa-copy"></i>
                 <span id="copy-text">Copy Script</span>
               </button>
             </div>
-            <p id="res-script" class="text-xs sm:text-sm text-espresso/80 leading-relaxed">
-              "Start with a warm milky-nude base on medium almond shaped nails. Apply a curved terracotta French micro-tip on all fingers, and finish with a high-shine glazed donut chrome topcoat."
+            <p id="res-script" class="text-xs sm:text-sm text-espresso/80 leading-relaxed font-medium">
+              "Start with a warm milky-nude base on medium almond shaped nails. Apply terracotta micro-French tips on all fingers, and seal with a high-shine glazed donut chrome topcoat."
             </p>
           </div>
+
         </div>
+
       </div>
     </div>
   </section>
 
-  <!-- Trending Lookbook Section -->
+  <!-- Rich Trending Lookbook Grid (8 High-Quality Visual Designs) -->
   <section id="lookbook" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
       <div>
-        <span class="text-terracotta-500 font-bold uppercase tracking-widest text-xs">Curated Inspo</span>
-        <h2 class="font-serif text-3xl sm:text-4xl font-bold mt-1">Trending Lookbook Ideas</h2>
-        <p class="text-espresso/70 text-sm mt-1">Handpicked viral designs with ready salon formulas.</p>
+        <span class="text-terracotta-500 font-bold uppercase tracking-widest text-xs">Curated Inspo Vault</span>
+        <h2 class="font-serif text-3xl sm:text-4xl font-bold mt-1">Trending Lookbook Gallery</h2>
+        <p class="text-espresso/70 text-sm mt-1">Explore high-resolution viral nail designs from Fall 2026, Minimalist, Gothic, and Glazed collections.</p>
       </div>
 
       <!-- Filter Buttons -->
       <div class="flex items-center gap-2 overflow-x-auto pb-2 scrollbar-none">
-        <button onclick="filterLooks('all')" class="filter-btn bg-terracotta-500 text-white px-4 py-2 rounded-full text-xs font-bold whitespace-nowrap">All Sets</button>
-        <button onclick="filterLooks('fall')" class="filter-btn bg-white hover:bg-terracotta-100 text-espresso px-4 py-2 rounded-full text-xs font-bold whitespace-nowrap border border-terracotta-200">Fall 2026</button>
-        <button onclick="filterLooks('minimal')" class="filter-btn bg-white hover:bg-terracotta-100 text-espresso px-4 py-2 rounded-full text-xs font-bold whitespace-nowrap border border-terracotta-200">Clean Minimal</button>
-        <button onclick="filterLooks('spooky')" class="filter-btn bg-white hover:bg-terracotta-100 text-espresso px-4 py-2 rounded-full text-xs font-bold whitespace-nowrap border border-terracotta-200">Spooky & Velvet</button>
+        <button onclick="filterLooks('all', this)" class="filter-btn bg-terracotta-500 text-white px-4 py-2 rounded-full text-xs font-bold whitespace-nowrap shadow-sm">All Designs</button>
+        <button onclick="filterLooks('fall', this)" class="filter-btn bg-white hover:bg-terracotta-100 text-espresso px-4 py-2 rounded-full text-xs font-bold whitespace-nowrap border border-terracotta-200">🍂 Fall 2026</button>
+        <button onclick="filterLooks('minimal', this)" class="filter-btn bg-white hover:bg-terracotta-100 text-espresso px-4 py-2 rounded-full text-xs font-bold whitespace-nowrap border border-terracotta-200">✨ Clean Girl</button>
+        <button onclick="filterLooks('spooky', this)" class="filter-btn bg-white hover:bg-terracotta-100 text-espresso px-4 py-2 rounded-full text-xs font-bold whitespace-nowrap border border-terracotta-200">🎃 Spooky Glam</button>
       </div>
     </div>
 
     <!-- Cards Grid -->
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      
       <!-- Card 1 -->
-      <div class="look-card group glass-card rounded-3xl overflow-hidden shadow-lg border border-terracotta-100 hover:shadow-2xl transition duration-300" data-category="fall">
-        <div class="relative h-64 overflow-hidden bg-terracotta-100">
+      <div class="look-card group glass-card rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition duration-300 flex flex-col justify-between" data-category="fall">
+        <div class="relative h-56 overflow-hidden bg-terracotta-100">
           <img src="https://images.unsplash.com/photo-1632345031435-8727f6897d53?auto=format&fit=crop&w=800&q=80" 
-               alt="Velvet Terracotta French Nails" 
+               alt="Terracotta French Almond Nails" 
                class="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                onerror="this.src='https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=800&q=80'">
-          <div class="absolute top-4 left-4 bg-white/90 backdrop-blur-md px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider text-terracotta-600">
-            Fall 2026
-          </div>
-          <button onclick="likeCard(this)" class="absolute top-4 right-4 w-9 h-9 rounded-full bg-white/90 backdrop-blur-md text-espresso hover:text-red-500 flex items-center justify-center transition shadow-sm">
-            <i class="fa-regular fa-heart"></i>
+          <span class="absolute top-3 left-3 bg-white/90 backdrop-blur-md px-2.5 py-1 rounded-full text-[10px] font-bold uppercase text-terracotta-600">Fall 2026</span>
+          <button onclick="likeCard(this)" class="absolute top-3 right-3 w-8 h-8 rounded-full bg-white/90 backdrop-blur-md text-espresso hover:text-red-500 flex items-center justify-center transition">
+            <i class="fa-regular fa-heart text-xs"></i>
           </button>
         </div>
-        <div class="p-6">
-          <h3 class="font-serif text-xl font-bold mb-2">Velvet Terracotta French</h3>
-          <p class="text-xs text-espresso/70 mb-4 leading-relaxed">A warm milky almond base with deep terracotta micro french curves and gold chrome dusting.</p>
-          <div class="flex items-center justify-between pt-4 border-t border-terracotta-100">
-            <div class="flex items-center gap-1.5">
-              <span class="w-3 h-3 rounded-full bg-[#c85a32]"></span>
-              <span class="w-3 h-3 rounded-full bg-[#d4a373]"></span>
-              <span class="w-3 h-3 rounded-full bg-[#fefae0]"></span>
-            </div>
-            <a href="#generator" class="text-xs font-bold text-terracotta-500 hover:text-terracotta-600 flex items-center gap-1">Customize <i class="fa-solid fa-arrow-right"></i></a>
+        <div class="p-5 flex-1 flex flex-col justify-between">
+          <div>
+            <h3 class="font-serif text-lg font-bold mb-1">Velvet Terracotta French</h3>
+            <p class="text-xs text-espresso/70 mb-4 leading-relaxed">Warm almond tips with subtle spiced cinnamon glow.</p>
+          </div>
+          <div class="pt-3 border-t border-terracotta-100 flex items-center justify-between">
+            <div class="flex gap-1.5"><span class="w-3.5 h-3.5 rounded-full bg-[#c85a32]"></span><span class="w-3.5 h-3.5 rounded-full bg-[#ead7c5]"></span></div>
+            <button onclick="loadIntoStudio('fall_terracotta', 'Almond')" class="text-xs font-bold text-terracotta-500 hover:text-terracotta-600">Test in Studio →</button>
           </div>
         </div>
       </div>
 
       <!-- Card 2 -->
-      <div class="look-card group glass-card rounded-3xl overflow-hidden shadow-lg border border-terracotta-100 hover:shadow-2xl transition duration-300" data-category="minimal">
-        <div class="relative h-64 overflow-hidden bg-terracotta-100">
+      <div class="look-card group glass-card rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition duration-300 flex flex-col justify-between" data-category="minimal">
+        <div class="relative h-56 overflow-hidden bg-terracotta-100">
           <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=800&q=80" 
-               alt="Clean Glazed Nude Donut Nails" 
+               alt="Glazed Nude Donut Nails" 
                class="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                onerror="this.src='https://images.unsplash.com/photo-1632345031435-8727f6897d53?auto=format&fit=crop&w=800&q=80'">
-          <div class="absolute top-4 left-4 bg-white/90 backdrop-blur-md px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider text-terracotta-600">
-            Minimalist
-          </div>
-          <button onclick="likeCard(this)" class="absolute top-4 right-4 w-9 h-9 rounded-full bg-white/90 backdrop-blur-md text-espresso hover:text-red-500 flex items-center justify-center transition shadow-sm">
-            <i class="fa-regular fa-heart"></i>
+          <span class="absolute top-3 left-3 bg-white/90 backdrop-blur-md px-2.5 py-1 rounded-full text-[10px] font-bold uppercase text-terracotta-600">Minimalist</span>
+          <button onclick="likeCard(this)" class="absolute top-3 right-3 w-8 h-8 rounded-full bg-white/90 backdrop-blur-md text-espresso hover:text-red-500 flex items-center justify-center transition">
+            <i class="fa-regular fa-heart text-xs"></i>
           </button>
         </div>
-        <div class="p-6">
-          <h3 class="font-serif text-xl font-bold mb-2">Clean Glazed Nude Halo</h3>
-          <p class="text-xs text-espresso/70 mb-4 leading-relaxed">Subtle square shaped neutral latte base with pearl chrome glazed mirror top finish.</p>
-          <div class="flex items-center justify-between pt-4 border-t border-terracotta-100">
-            <div class="flex items-center gap-1.5">
-              <span class="w-3 h-3 rounded-full bg-[#f5ebe0]"></span>
-              <span class="w-3 h-3 rounded-full bg-[#e3d5ca]"></span>
-              <span class="w-3 h-3 rounded-full bg-[#d6ccc2]"></span>
-            </div>
-            <a href="#generator" class="text-xs font-bold text-terracotta-500 hover:text-terracotta-600 flex items-center gap-1">Customize <i class="fa-solid fa-arrow-right"></i></a>
+        <div class="p-5 flex-1 flex flex-col justify-between">
+          <div>
+            <h3 class="font-serif text-lg font-bold mb-1">Clean Glazed Nude Halo</h3>
+            <p class="text-xs text-espresso/70 mb-4 leading-relaxed">Sheer pearl chrome finish over milky oat square base.</p>
+          </div>
+          <div class="pt-3 border-t border-terracotta-100 flex items-center justify-between">
+            <div class="flex gap-1.5"><span class="w-3.5 h-3.5 rounded-full bg-[#f5ebe0]"></span><span class="w-3.5 h-3.5 rounded-full bg-[#e3d5ca]"></span></div>
+            <button onclick="loadIntoStudio('clean_nude', 'Square')" class="text-xs font-bold text-terracotta-500 hover:text-terracotta-600">Test in Studio →</button>
           </div>
         </div>
       </div>
 
       <!-- Card 3 -->
-      <div class="look-card group glass-card rounded-3xl overflow-hidden shadow-lg border border-terracotta-100 hover:shadow-2xl transition duration-300" data-category="spooky">
-        <div class="relative h-64 overflow-hidden bg-terracotta-100">
+      <div class="look-card group glass-card rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition duration-300 flex flex-col justify-between" data-category="spooky">
+        <div class="relative h-56 overflow-hidden bg-terracotta-100">
           <img src="https://images.unsplash.com/photo-1519014816548-bf5fe059798b?auto=format&fit=crop&w=800&q=80" 
-               alt="Vampire Burgundy & Gothic Chrome Nails" 
+               alt="Gothic Celestial Stars Nails" 
                class="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                onerror="this.src='https://images.unsplash.com/photo-1632345031435-8727f6897d53?auto=format&fit=crop&w=800&q=80'">
-          <div class="absolute top-4 left-4 bg-white/90 backdrop-blur-md px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider text-terracotta-600">
-            Spooky Season
-          </div>
-          <button onclick="likeCard(this)" class="absolute top-4 right-4 w-9 h-9 rounded-full bg-white/90 backdrop-blur-md text-espresso hover:text-red-500 flex items-center justify-center transition shadow-sm">
-            <i class="fa-regular fa-heart"></i>
+          <span class="absolute top-3 left-3 bg-white/90 backdrop-blur-md px-2.5 py-1 rounded-full text-[10px] font-bold uppercase text-terracotta-600">Spooky Glam</span>
+          <button onclick="likeCard(this)" class="absolute top-3 right-3 w-8 h-8 rounded-full bg-white/90 backdrop-blur-md text-espresso hover:text-red-500 flex items-center justify-center transition">
+            <i class="fa-regular fa-heart text-xs"></i>
           </button>
         </div>
-        <div class="p-6">
-          <h3 class="font-serif text-xl font-bold mb-2">Gothic Celestial Stars</h3>
-          <p class="text-xs text-espresso/70 mb-4 leading-relaxed">Deep burgundy velvet stiletto nails featuring minimalist gold star constellations.</p>
-          <div class="flex items-center justify-between pt-4 border-t border-terracotta-100">
-            <div class="flex items-center gap-1.5">
-              <span class="w-3 h-3 rounded-full bg-[#4a0e17]"></span>
-              <span class="w-3 h-3 rounded-full bg-[#2b2118]"></span>
-              <span class="w-3 h-3 rounded-full bg-[#e0a96d]"></span>
-            </div>
-            <a href="#generator" class="text-xs font-bold text-terracotta-500 hover:text-terracotta-600 flex items-center gap-1">Customize <i class="fa-solid fa-arrow-right"></i></a>
+        <div class="p-5 flex-1 flex flex-col justify-between">
+          <div>
+            <h3 class="font-serif text-lg font-bold mb-1">Gothic Celestial Stars</h3>
+            <p class="text-xs text-espresso/70 mb-4 leading-relaxed">Deep vampy plum stiletto nails with fine gold starbursts.</p>
+          </div>
+          <div class="pt-3 border-t border-terracotta-100 flex items-center justify-between">
+            <div class="flex gap-1.5"><span class="w-3.5 h-3.5 rounded-full bg-[#4a0e17]"></span><span class="w-3.5 h-3.5 rounded-full bg-[#e0a96d]"></span></div>
+            <button onclick="loadIntoStudio('spooky_goth', 'Coffin')" class="text-xs font-bold text-terracotta-500 hover:text-terracotta-600">Test in Studio →</button>
           </div>
         </div>
       </div>
+
+      <!-- Card 4 -->
+      <div class="look-card group glass-card rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition duration-300 flex flex-col justify-between" data-category="fall">
+        <div class="relative h-56 overflow-hidden bg-terracotta-100">
+          <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80" 
+               alt="Emerald Velvet Luxe Nails" 
+               class="w-full h-full object-cover group-hover:scale-105 transition duration-500"
+               onerror="this.src='https://images.unsplash.com/photo-1632345031435-8727f6897d53?auto=format&fit=crop&w=800&q=80'">
+          <span class="absolute top-3 left-3 bg-white/90 backdrop-blur-md px-2.5 py-1 rounded-full text-[10px] font-bold uppercase text-terracotta-600">Fall 2026</span>
+          <button onclick="likeCard(this)" class="absolute top-3 right-3 w-8 h-8 rounded-full bg-white/90 backdrop-blur-md text-espresso hover:text-red-500 flex items-center justify-center transition">
+            <i class="fa-regular fa-heart text-xs"></i>
+          </button>
+        </div>
+        <div class="p-5 flex-1 flex flex-col justify-between">
+          <div>
+            <h3 class="font-serif text-lg font-bold mb-1">Emerald Forest Velvet</h3>
+            <p class="text-xs text-espresso/70 mb-4 leading-relaxed">Magnetic deep green cat-eye finish on almond tips.</p>
+          </div>
+          <div class="pt-3 border-t border-terracotta-100 flex items-center justify-between">
+            <div class="flex gap-1.5"><span class="w-3.5 h-3.5 rounded-full bg-[#1b4332]"></span><span class="w-3.5 h-3.5 rounded-full bg-[#d8f3dc]"></span></div>
+            <button onclick="loadIntoStudio('emerald_velvet', 'Almond')" class="text-xs font-bold text-terracotta-500 hover:text-terracotta-600">Test in Studio →</button>
+          </div>
+        </div>
+      </div>
+
     </div>
   </section>
 
@@ -342,42 +347,42 @@
       <span class="text-[10px] uppercase tracking-widest text-espresso/40 block mb-1">Recommended Style Partner</span>
       <script>
         atOptions = {
-          'key' : 'bb4591b86426b39c80d6720a79c0bbdd',
+          'key' : 'ace923a0e87d9f8b2fff56989c03e948',
           'format' : 'iframe',
           'height' : 250,
           'width' : 300,
           'params' : {}
         };
       </script>
-      <script src="https://www.highrevenueformat.com/bb4591b86426b39c80d6720a79c0bbdd/invoke.js"></script>
+      <script src="https://www.highrevenueformat.com/ace923a0e87d9f8b2fff56989c03e948/invoke.js"></script>
     </div>
   </div>
 
   <!-- FAQ Section -->
   <section id="faq" class="py-16 max-w-4xl mx-auto px-4 sm:px-6">
     <div class="text-center mb-10">
-      <span class="text-terracotta-500 font-bold uppercase tracking-widest text-xs">Help & Tips</span>
+      <span class="text-terracotta-500 font-bold uppercase tracking-widest text-xs">Questions & Answers</span>
       <h2 class="font-serif text-3xl font-bold mt-1">Frequently Asked Questions</h2>
     </div>
 
     <div class="space-y-4">
       <details class="group glass-card rounded-2xl p-5 border border-terracotta-100 cursor-pointer">
         <summary class="font-bold text-sm sm:text-base flex items-center justify-between">
-          <span>How do I use the salon script at my appointment?</span>
+          <span>How does the live color swatch preview work?</span>
           <i class="fa-solid fa-chevron-down text-xs transition group-open:rotate-180 text-terracotta-500"></i>
         </summary>
         <p class="mt-3 text-xs sm:text-sm text-espresso/70 leading-relaxed">
-          Simply tap the "Copy Script" button on any generated set and show the exact wording to your nail technician. It specifies base color, shape, finish, and art technique clearly.
+          Simply tap any color circle in the AI Studio or Lookbook cards. The preview photo and salon script automatically swap to match that exact color shade and finish in real-time.
         </p>
       </details>
 
       <details class="group glass-card rounded-2xl p-5 border border-terracotta-100 cursor-pointer">
         <summary class="font-bold text-sm sm:text-base flex items-center justify-between">
-          <span>What are the biggest nail color trends for Fall 2026?</span>
+          <span>Can I show these formulas directly to my nail artist?</span>
           <i class="fa-solid fa-chevron-down text-xs transition group-open:rotate-180 text-terracotta-500"></i>
         </summary>
         <p class="mt-3 text-xs sm:text-sm text-espresso/70 leading-relaxed">
-          Earthy terracotta, glazed pumpkin spice chrome, warm matcha olive, and moody vampy burgundy are the top viral shades this season.
+          Yes! Tap the "Copy Script" button. The text specifies the base layer, chrome powder, tip style, and top coat in standard nail salon terminology.
         </p>
       </details>
     </div>
@@ -393,113 +398,198 @@
             <span class="font-serif text-xl font-bold text-white">NailCraft AI</span>
           </div>
           <p class="text-xs text-white/60 max-w-sm leading-relaxed">
-            Your daily AI inspiration hub for viral nail aesthetics, color palettes, and professional salon tech scripts. Free for all nail lovers.
+            Your daily AI aesthetic hub for viral nail trends, live color swatches, and professional salon technician formulas. Free for all creators.
           </p>
         </div>
         <div>
           <h4 class="text-xs font-bold uppercase tracking-wider text-terracotta-100 mb-3">Quick Navigation</h4>
           <ul class="space-y-2 text-xs">
             <li><a href="#generator" class="hover:text-white transition">AI Studio</a></li>
-            <li><a href="#lookbook" class="hover:text-white transition">Fall Trends</a></li>
+            <li><a href="#lookbook" class="hover:text-white transition">Lookbook Vault</a></li>
             <li><a href="#faq" class="hover:text-white transition">FAQ</a></li>
           </ul>
         </div>
         <div>
-          <h4 class="text-xs font-bold uppercase tracking-wider text-terracotta-100 mb-3">Legal & Safety</h4>
+          <h4 class="text-xs font-bold uppercase tracking-wider text-terracotta-100 mb-3">Legal & Trust</h4>
           <ul class="space-y-2 text-xs">
-            <li><a href="#" class="hover:text-white transition">Privacy Policy</a></li>
-            <li><a href="#" class="hover:text-white transition">Terms of Service</a></li>
-            <li><a href="#" class="hover:text-white transition">DMCA Notice</a></li>
+            <li><button onclick="openModal('privacy')" class="hover:text-white transition text-left">Privacy Policy</button></li>
+            <li><button onclick="openModal('terms')" class="hover:text-white transition text-left">Terms of Service</button></li>
+            <li><button onclick="openModal('security')" class="hover:text-white transition text-left">Security & DMCA</button></li>
           </ul>
         </div>
       </div>
       <div class="pt-8 border-t border-white/10 text-center text-xs text-white/40">
-        &copy; 2026 NailCraft AI. All rights reserved. Designed for aesthetic beauty creators.
+        &copy; 2026 NailCraft AI. All rights reserved. Powered by aesthetic creators.
       </div>
     </div>
   </footer>
 
-  <!-- Script Logic -->
-  <script>
-    let state = {
-      vibe: 'Fall Transition',
-      shape: 'Almond',
-      mood: 'Earthy Terracotta'
-    };
+  <!-- Functional Legal Modals (Privacy, Terms, Security) -->
+  <div id="legal-modal" class="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm hidden flex items-center justify-center p-4">
+    <div class="bg-white text-espresso max-w-lg w-full rounded-3xl p-6 sm:p-8 shadow-2xl relative max-h-[85vh] overflow-y-auto">
+      <button onclick="closeModal()" class="absolute top-5 right-5 w-8 h-8 rounded-full bg-terracotta-50 text-espresso hover:bg-terracotta-100 flex items-center justify-center">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div id="modal-content"></div>
+    </div>
+  </div>
 
-    const designsDB = {
-      'Fall Transition': {
-        title: 'Terracotta French Micro-Tips',
-        img: 'https://images.unsplash.com/photo-1632345031435-8727f6897d53?auto=format&fit=crop&w=800&q=80',
-        script: 'Start with a warm milky-nude base on medium {SHAPE} shaped nails. Paint terracotta French micro-tips with fine gold chrome accents.',
-        colors: ['#C85A32', '#EAD7C5', '#D4A373']
+  <!-- Interactive JavaScript Engine -->
+  <script>
+    // Database with distinct high-res photo URLs, colors, and salon scripts
+    const nailStyles = {
+      'fall_terracotta': {
+        title: 'Warm Terracotta French Halo',
+        badge: 'Fall 2026 Trend',
+        script: 'Start with a warm milky-nude base on {SHAPE} nails. Apply terracotta French micro-tips with fine gold chrome accents.',
+        swatches: [
+          { name: 'Warm Terracotta', hex: '#C85A32', img: 'https://images.unsplash.com/photo-1632345031435-8727f6897d53?auto=format&fit=crop&w=1000&q=80' },
+          { name: 'Caramel Amber', hex: '#D4A373', img: 'https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=1000&q=80' },
+          { name: 'Spiced Latte', hex: '#EAD7C5', img: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1000&q=80' }
+        ]
       },
-      'Campus Minimalist': {
-        title: 'Clean Glazed Nude Halo',
-        img: 'https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=800&q=80',
-        script: 'Use a sheer oat milk base on {SHAPE} nails. Buff with pearl white chrome powder for a glazed reflective mirror finish.',
-        colors: ['#F5EBE0', '#E3D5CA', '#D6CCC2']
+      'clean_nude': {
+        title: 'Clean Glazed Nude Donut',
+        badge: 'Minimalist Clean Girl',
+        script: 'Apply sheer oat-milk gel on {SHAPE} nails. Buff with pearl white chrome powder for a reflective mirror glaze topcoat.',
+        swatches: [
+          { name: 'Oat Milk Sheer', hex: '#F5EBE0', img: 'https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=1000&q=80' },
+          { name: 'Blush Nude Glaze', hex: '#E3D5CA', img: 'https://images.unsplash.com/photo-1632345031435-8727f6897d53?auto=format&fit=crop&w=1000&q=80' },
+          { name: 'Milky Cashmere', hex: '#D6CCC2', img: 'https://images.unsplash.com/photo-1519014816548-bf5fe059798b?auto=format&fit=crop&w=1000&q=80' }
+        ]
       },
-      'Halloween Glam': {
-        title: 'Vampy Plum Celestial Stars',
-        img: 'https://images.unsplash.com/photo-1519014816548-bf5fe059798b?auto=format&fit=crop&w=800&q=80',
-        script: 'Deep glossy burgundy-plum gel on {SHAPE} nails with delicate gold foil celestial star accents on the ring fingers.',
-        colors: ['#4A0E17', '#2B2118', '#E0A96D']
+      'spooky_goth': {
+        title: 'Gothic Celestial Stars & Velvet',
+        badge: 'Spooky & Halloween 2026',
+        script: 'Apply deep burgundy velvet gel on {SHAPE} nails with delicate gold foil celestial star constellations on ring fingers.',
+        swatches: [
+          { name: 'Vampy Burgundy', hex: '#4A0E17', img: 'https://images.unsplash.com/photo-1519014816548-bf5fe059798b?auto=format&fit=crop&w=1000&q=80' },
+          { name: 'Matte Obsidian', hex: '#1C1917', img: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1000&q=80' },
+          { name: 'Gothic Chrome Wine', hex: '#7F1D1D', img: 'https://images.unsplash.com/photo-1632345031435-8727f6897d53?auto=format&fit=crop&w=1000&q=80' }
+        ]
       },
-      'Elegant Evening': {
+      'champagne_gold': {
         title: 'Champagne Shimmer & Gold Cuffs',
-        img: 'https://images.unsplash.com/photo-1632345031435-8727f6897d53?auto=format&fit=crop&w=800&q=80',
-        script: 'Soft champagne sparkle overlay on {SHAPE} nails with luxury metallic gold foil cuffs along the cuticle line.',
-        colors: ['#D4AF37', '#FAF0E6', '#B8860B']
+        badge: 'Luxury Evening Set',
+        script: 'Champagne sparkle overlay on {SHAPE} nails with luxury metallic gold foil cuffs along the cuticle line.',
+        swatches: [
+          { name: 'Golden Champagne', hex: '#D4AF37', img: 'https://images.unsplash.com/photo-1632345031435-8727f6897d53?auto=format&fit=crop&w=1000&q=80' },
+          { name: 'Rose Gold Glitz', hex: '#B76E79', img: 'https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=1000&q=80' }
+        ]
+      },
+      'emerald_velvet': {
+        title: 'Emerald Forest Velvet Cat-Eye',
+        badge: 'Fall 2026 Dark Glam',
+        script: 'Deep emerald magnetic cat-eye gel on {SHAPE} nails with high-gloss mirror finish.',
+        swatches: [
+          { name: 'Deep Emerald', hex: '#1B4332', img: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1000&q=80' },
+          { name: 'Sage Olive Shimmer', hex: '#2D6A4F', img: 'https://images.unsplash.com/photo-1632345031435-8727f6897d53?auto=format&fit=crop&w=1000&q=80' }
+        ]
+      },
+      'pumpkin_chai': {
+        title: 'Spiced Pumpkin Chai Swirls',
+        badge: 'September Warm Tones',
+        script: 'Warm pumpkin chai base on {SHAPE} nails with abstract cream milk swirl accents.',
+        swatches: [
+          { name: 'Pumpkin Spiced Amber', hex: '#DD6B20', img: 'https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=1000&q=80' },
+          { name: 'Warm Cinnamon', hex: '#9C4221', img: 'https://images.unsplash.com/photo-1632345031435-8727f6897d53?auto=format&fit=crop&w=1000&q=80' }
+        ]
       }
     };
 
-    function selectOption(category, btn, val) {
-      state[category] = val;
-      const parent = btn.parentElement;
-      Array.from(parent.children).forEach(b => {
-        b.className = b.className.replace('bg-terracotta-500 text-white border-transparent', 'bg-white hover:bg-terracotta-50 text-espresso border-terracotta-100');
-      });
-      btn.className = btn.className.replace('bg-white hover:bg-terracotta-50 text-espresso border-terracotta-100', 'bg-terracotta-500 text-white border-transparent');
-    }
+    let activeVibe = 'fall_terracotta';
+    let activeShape = 'Almond';
+    let activeSwatchIndex = 0;
 
-    function generateNailDesign() {
-      const design = designsDB[state.vibe] || designsDB['Fall Transition'];
-      document.getElementById('res-badge').innerText = `${state.vibe} • ${state.shape}`;
-      document.getElementById('res-title').innerText = design.title;
-      document.getElementById('res-image').src = design.img;
-      document.getElementById('res-script').innerText = `"${design.script.replace('{SHAPE}', state.shape)}"`;
+    function renderStudio() {
+      const data = nailStyles[activeVibe] || nailStyles['fall_terracotta'];
+      const currentSwatch = data.swatches[activeSwatchIndex] || data.swatches[0];
 
-      // Swatches
-      const swatchContainer = document.getElementById('res-swatches');
-      swatchContainer.innerHTML = design.colors.map(c => `
-        <div class="flex items-center gap-2 bg-white px-3 py-1.5 rounded-xl border border-terracotta-100 text-xs">
-          <span class="w-4 h-4 rounded-full" style="background-color: ${c}"></span>
-          <span class="font-mono">${c}</span>
-        </div>
+      // Update text & script
+      document.getElementById('res-badge').innerText = `${data.badge} • ${activeShape}`;
+      document.getElementById('res-title').innerText = data.title;
+      document.getElementById('res-script').innerText = `"${data.script.replace('{SHAPE}', activeShape)}"`;
+
+      // Update image & tag
+      document.getElementById('res-image').src = currentSwatch.img;
+      document.getElementById('image-tag').innerHTML = `<i class="fa-solid fa-check mr-1 text-green-400"></i> Shade: ${currentSwatch.name}`;
+      document.getElementById('active-hex-label').innerText = `${currentSwatch.name} (${currentSwatch.hex})`;
+
+      // Render clickable swatch bubbles
+      const container = document.getElementById('swatch-container');
+      container.innerHTML = data.swatches.map((s, idx) => `
+        <button onclick="selectSwatch(${idx})" class="color-dot flex items-center gap-2 bg-white px-3 py-1.5 rounded-xl border border-terracotta-200 text-xs font-semibold hover:border-terracotta-500 transition shadow-sm ${idx === activeSwatchIndex ? 'active-swatch' : ''}">
+          <span class="w-4 h-4 rounded-full shadow-inner" style="background-color: ${s.hex}"></span>
+          <span>${s.name}</span>
+        </button>
       `).join('');
     }
 
+    function setVibe(vibeKey, btn) {
+      activeVibe = vibeKey;
+      activeSwatchIndex = 0;
+      document.querySelectorAll('.vibe-opt').forEach(b => {
+        b.className = 'vibe-opt bg-white hover:bg-terracotta-50 text-espresso px-3 py-2.5 rounded-xl text-xs font-semibold border border-terracotta-100 transition';
+      });
+      btn.className = 'vibe-opt bg-terracotta-500 text-white px-3 py-2.5 rounded-xl text-xs font-semibold shadow-sm transition';
+      renderStudio();
+    }
+
+    function setShape(shapeName, btn) {
+      activeShape = shapeName;
+      document.querySelectorAll('.shape-opt').forEach(b => {
+        b.className = 'shape-opt bg-white hover:bg-terracotta-50 text-espresso px-3 py-2 rounded-xl text-xs font-semibold border border-terracotta-100';
+      });
+      btn.className = 'shape-opt bg-terracotta-500 text-white px-3 py-2 rounded-xl text-xs font-semibold';
+      renderStudio();
+    }
+
+    function selectSwatch(idx) {
+      activeSwatchIndex = idx;
+      renderStudio();
+    }
+
+    function loadIntoStudio(vibeKey, shapeName) {
+      activeVibe = vibeKey;
+      activeShape = shapeName;
+      activeSwatchIndex = 0;
+      
+      // Update buttons
+      document.querySelectorAll('.vibe-opt').forEach(b => {
+        b.className = 'vibe-opt bg-white hover:bg-terracotta-50 text-espresso px-3 py-2.5 rounded-xl text-xs font-semibold border border-terracotta-100 transition';
+      });
+      document.querySelectorAll('.shape-opt').forEach(b => {
+        if (b.innerText === shapeName) {
+          b.className = 'shape-opt bg-terracotta-500 text-white px-3 py-2 rounded-xl text-xs font-semibold';
+        } else {
+          b.className = 'shape-opt bg-white hover:bg-terracotta-50 text-espresso px-3 py-2 rounded-xl text-xs font-semibold border border-terracotta-100';
+        }
+      });
+
+      renderStudio();
+      document.getElementById('generator').scrollIntoView({ behavior: 'smooth' });
+    }
+
     function copyScript() {
-      const scriptText = document.getElementById('res-script').innerText;
-      navigator.clipboard.writeText(scriptText).then(() => {
-        const textSpan = document.getElementById('copy-text');
-        textSpan.innerText = 'Copied!';
-        setTimeout(() => { textSpan.innerText = 'Copy Script'; }, 2000);
+      const text = document.getElementById('res-script').innerText;
+      navigator.clipboard.writeText(text).then(() => {
+        const span = document.getElementById('copy-text');
+        span.innerText = 'Copied to Clipboard!';
+        setTimeout(() => { span.innerText = 'Copy Script'; }, 2000);
       });
     }
 
-    function filterLooks(category) {
-      const cards = document.querySelectorAll('.look-card');
-      const buttons = document.querySelectorAll('.filter-btn');
-      buttons.forEach(b => b.className = 'filter-btn bg-white hover:bg-terracotta-100 text-espresso px-4 py-2 rounded-full text-xs font-bold whitespace-nowrap border border-terracotta-200');
-      event.target.className = 'filter-btn bg-terracotta-500 text-white px-4 py-2 rounded-full text-xs font-bold whitespace-nowrap';
+    function filterLooks(category, btn) {
+      document.querySelectorAll('.filter-btn').forEach(b => {
+        b.className = 'filter-btn bg-white hover:bg-terracotta-100 text-espresso px-4 py-2 rounded-full text-xs font-bold whitespace-nowrap border border-terracotta-200';
+      });
+      btn.className = 'filter-btn bg-terracotta-500 text-white px-4 py-2 rounded-full text-xs font-bold whitespace-nowrap shadow-sm';
 
-      cards.forEach(c => {
-        if (category === 'all' || c.getAttribute('data-category') === category) {
-          c.style.display = 'block';
+      document.querySelectorAll('.look-card').forEach(card => {
+        if (category === 'all' || card.getAttribute('data-category') === category) {
+          card.style.display = 'flex';
         } else {
-          c.style.display = 'none';
+          card.style.display = 'none';
         }
       });
     }
@@ -510,6 +600,39 @@
       icon.classList.toggle('fa-solid');
       icon.classList.toggle('text-red-500');
     }
+
+    // Modal Manager
+    const legalTexts = {
+      privacy: {
+        title: 'Privacy Policy',
+        body: '<p class="text-xs text-espresso/70 leading-relaxed mb-3">At NailCraft AI, accessible from our web app, user privacy is paramount. We do not store any personal identification data or sell user browsing history.</p><p class="text-xs text-espresso/70 leading-relaxed mb-3">Third-party advertisement networks (like Adsterra) may use standard browser cookies to serve relevant recommendations. You can disable cookies at any time via your individual browser options.</p>'
+      },
+      terms: {
+        title: 'Terms of Service',
+        body: '<p class="text-xs text-espresso/70 leading-relaxed mb-3">All nail art inspiration, salon scripts, and color palettes generated by NailCraft AI are provided 100% free for educational and styling inspiration.</p><p class="text-xs text-espresso/70 leading-relaxed">Images are curated under free-to-use photography licenses. Commercial salon implementation is at the discretion of the user and their nail technician.</p>'
+      },
+      security: {
+        title: 'Security & DMCA Notice',
+        body: '<p class="text-xs text-espresso/70 leading-relaxed mb-3">NailCraft AI complies with standard web security practices and DMCA guidelines.</p><p class="text-xs text-espresso/70 leading-relaxed">If you believe any imagery violates copyright licenses, contact our moderation team with verification links for immediate removal within 24 hours.</p>'
+      }
+    };
+
+    function openModal(type) {
+      const data = legalTexts[type];
+      document.getElementById('modal-content').innerHTML = `
+        <h3 class="font-serif text-2xl font-bold mb-4 text-espresso">${data.title}</h3>
+        <div>${data.body}</div>
+        <button onclick="closeModal()" class="w-full mt-6 bg-terracotta-500 text-white font-bold py-2.5 rounded-xl text-xs">Close Window</button>
+      `;
+      document.getElementById('legal-modal').classList.remove('hidden');
+    }
+
+    function closeModal() {
+      document.getElementById('legal-modal').classList.add('hidden');
+    }
+
+    // Initialize Studio on load
+    renderStudio();
   </script>
 </body>
-  </html>
+              </html>
